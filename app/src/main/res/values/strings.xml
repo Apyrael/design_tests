@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Design Tests</string>
+    <string name="styledToolbarTheme">Styled Toolbar Theme</string>
 </resources>
