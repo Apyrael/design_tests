@@ -6,11 +6,13 @@
     android:layout_height="match_parent">
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/tlbNewsFeedPage"
+        android:id="@+id/tlbStyledToolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fitsSystemWindows="true"
         android:minHeight="?attr/actionBarSize"
+        app:theme="@style/ThemeOverlay.AppCompat.Light"
+        android:background="@color/colorPrimary"
         app:title="@string/styledToolbarTheme"/>
 
 </RelativeLayout>
